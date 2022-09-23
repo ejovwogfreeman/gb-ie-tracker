@@ -30,7 +30,7 @@ const Form = ({addTransaction}) => {
         <div>
             <input
                 type="text"
-                placeholder='Enter transaction title'
+                placeholder='Enter Tansaction Title'
                 required
                 value={title}
                 onChange={(e)=>setTitle(e.target.value)}
@@ -39,7 +39,7 @@ const Form = ({addTransaction}) => {
         <div>
             <textarea 
                 type="text"
-                placeholder='Enter transaction description'
+                placeholder='Enter Transaction Tescription'
                 required
                 value={content}
                 onChange={(e)=>setContent(e.target.value)}
@@ -48,7 +48,7 @@ const Form = ({addTransaction}) => {
         <div>
             <input 
                 type="number" 
-                placeholder='Enter amount'
+                placeholder='Enter Transaction Amount'
                 required
                 value={amount}
                 onChange={(e)=>setAmount(e.target.value)}
