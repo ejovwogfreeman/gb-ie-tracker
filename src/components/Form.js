@@ -19,6 +19,8 @@ const Form = ({addTransaction}) => {
         setTitle('')
         setContent('')
         setAmount('')
+        setType('income')
+        setDay('Sunday')
     }
 
 
