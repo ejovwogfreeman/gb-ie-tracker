@@ -39,7 +39,7 @@ const Form = ({addTransaction}) => {
         <div>
             <textarea 
                 type="text"
-                placeholder='Enter Transaction Tescription'
+                placeholder='Enter Transaction Description'
                 required
                 value={content}
                 onChange={(e)=>setContent(e.target.value)}
