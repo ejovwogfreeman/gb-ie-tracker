@@ -1,0 +1,30 @@
+.t-container {
+    text-align: center;
+    border: 1px solid var(--primary);
+    margin-top: 20px;
+}
+
+.t-container .balance{
+    border: 1px solid var(--primary);
+    padding: 10px;
+}
+
+.t-container .ie {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.t-container .ie div{
+    border: 1px solid var(--primary);
+    padding: 10px;
+    flex:1 ;
+}
+
+.t-container .ie .income h3{
+    color: green;
+}
+.t-container .ie .expense h3{
+    color: red;
+}
+
